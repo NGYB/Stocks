@@ -1,0 +1,2 @@
+Total portfolio cost,Total portfolio market value (mark to market),Total profit (mark to market),Div per month,Total dividends collected till now,Total profit (mark to market) with dividends and drp included,Weighted cagr,Weighted cagr with dividends and drp included,Weighted cagr for benchmark,No. of stocks,Market value per stock if balanced
+25856.436,23738.730000000003,-2117.705999999999,110.04566666666666,1457.0500000000002,-660.6559999999992,20.396918808064058,21.51751372256634,-8.71874162911365,4,5934.682500000001

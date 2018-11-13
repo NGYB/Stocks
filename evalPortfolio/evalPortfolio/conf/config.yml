@@ -1,0 +1,21 @@
+Nyrs: 10
+growth_rate: 0.15  # Growth rate of EPS.
+priceA_disc: 0.75  # e.g If priceA_disc is 0.75, tgt price A is 0.75 of intrinsic value
+priceB_disc: 0.33  # tgt price B is e.g. 33% of (week52_high - week52_low) + week52_low
+
+path_portfolio: "../conf/portfolio.yml"
+stock_code_benchmark: "ES3.SI"
+path_div_cash: "../../Dividends/Cash/SGP/"
+path_div_stock: "../../Dividends/Stock/SGP/"
+path_quotes: "../data/sFairValue_SGP.csv"  # filename of the file that contains stock prices
+path_out_SGP: "../out/SGP/"
+
+path_portfolio_SGP_oneFourth: "../conf/portfolio_SGP_oneFourth.yml"
+path_out_SGP_oneFourth: "../out/SGP_oneFourth/"
+
+path_portfolio_USA: "../conf/portfolio_USA.yml"
+stock_code_benchmark_USA: "VTI"
+path_div_cash_USA: "../../Dividends/Cash/USA/"
+path_div_stock_USA: "../../Dividends/Stock/USA/"
+path_quotes_USA: "../data/sFairValue_USA.csv" # filename of the file that contains stock prices
+path_out_USA: "../out/USA/"

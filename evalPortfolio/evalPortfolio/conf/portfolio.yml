@@ -1,0 +1,16 @@
+AimsR:
+  price_bought: [1.425]
+  quantity: [2000]
+  date_bought: ['2014-05-23']
+  buy_admin_fee: [30]
+  price_of_benchmark_on_date_bought: [3.02]
+  date_div_paid: [23 Mar, 22 Jun, 22 Sep, 22 Dec]
+
+AscendasITrust:
+  price_bought: [1.15]
+  quantity: [5300]
+  date_bought: ['2017-07-31']
+  buy_admin_fee: [15.65]
+  price_of_benchmark_on_date_bought: [3.32]
+  date_div_paid: [27 May, 28 Nov]
+

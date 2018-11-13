@@ -1,0 +1,15 @@
+Apple:
+  price_bought: [107]
+  quantity: [26]
+  date_bought: ["2015-08-25"]
+  buy_admin_fee: [21.4]
+  price_of_benchmark_on_date_bought: [96.95]
+  date_div_paid: ['15 Feb', '16 May', '15 Aug', '14 Nov']
+
+LeggettNPlatt:
+  price_bought: [45.05]
+  quantity: [95]
+  date_bought: ["2018-02-06"]
+  buy_admin_fee: [0]
+  price_of_benchmark_on_date_bought: [137.94]
+  date_div_paid: ['13 Jan', '13 Apr', '14 Jul', '13 Oct']
