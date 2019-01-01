@@ -7,3 +7,6 @@ Programs for stock price prediction
 * StockPricePrediction_v2_lin_reg.ipynb:
 	* Predict stock price in next day using linear regression
 	* Given prices for the last N days, we train a model, and predict for day N+1
+* StockPricePrediction_v3_mov_avg.ipynb:
+        * Predict stock price in next day using simple moving average
+        * Given prices for the last N days, we do prediction for day N+1
