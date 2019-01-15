@@ -10,3 +10,5 @@ Programs for stock price prediction
 * StockPricePrediction_v3_mov_avg.ipynb:
     * Predict stock price in next day using simple moving average
     * Given prices for the last N days, we do prediction for day N+1
+
+<img src="./data/vti_predictions_xgboost.png">
