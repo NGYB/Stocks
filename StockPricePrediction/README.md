@@ -23,11 +23,11 @@ Programs for stock price prediction
     * Given prices and other features for the last N days, we do prediction for day N+1
     * Here we split 3 years of data into train(60%), dev(20%) and test(20%)
     * Whenever we do prediction on dev or test set we scale the previous N values to also have mean 0 and var 1
-    * On the test set, the RMSE is 1.162 and MAPE is 0.58% after hyperparamter tuning and using N_opt=3
+    * Works well. On the test set, the RMSE is 1.162 and MAPE is 0.58% after hyperparamter tuning and using N_opt=3
 * StockPricePrediction_v2_lin_reg.ipynb:
 	* Predict stock price in next day using linear regression
 	* Given prices for the last N days, we train a model, and predict for day N+1
-    * On the test set, the RMSE is 1.42 and MAPE is 0.707% using N_opt=5
+    * Works well. On the test set, the RMSE is 1.42 and MAPE is 0.707% using N_opt=5
 * StockPricePrediction_v3_mov_avg.ipynb:
     * Predict stock price in next day using simple moving average
     * Given prices for the last N days, we do prediction for day N+1
