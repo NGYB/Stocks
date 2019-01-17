@@ -31,5 +31,6 @@ Programs for stock price prediction
 * StockPricePrediction_v3_mov_avg.ipynb:
     * Predict stock price in next day using simple moving average
     * Given prices for the last N days, we do prediction for day N+1
+    * Works well. On the test set, the RMSE is 1.27 and MAPE is 0.64% using N_opt=2
 
 <img src="./data/vti_predictions_xgboost.png">
