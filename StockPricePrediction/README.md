@@ -32,5 +32,12 @@ Programs for stock price prediction
     * Predict stock price in next day using simple moving average
     * Given prices for the last N days, we do prediction for day N+1
     * Works well. On the test set, the **RMSE is 1.27 and MAPE is 0.64%** using N_opt=2
+* **StockPricePrediction_v4_lstm.ipynb**:
+	* Predict stock price in next day using long short term memory(LSTM)
+	* Given prices for the last N days, we do prediction for day N+1
+	* Here we split 3 years of data into train(60%), dev(20%) and test(20%)
+	* Here we use MinMaxScalar to fit_transform the train set, which we then use to transform the test set
+	* Works well. On the test set, the **RMSE is 2.988 and MAPE is 1.886%** using N_opt=5
+
 
 <img src="./data/vti_predictions_xgboost.png">
