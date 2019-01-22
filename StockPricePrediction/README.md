@@ -38,6 +38,9 @@ Programs for stock price prediction
 	* Here we split 3 years of data into train(60%), dev(20%) and test(20%)
 	* Here we use MinMaxScalar to fit_transform the train set, which we then use to transform the test set
 	* Works well. On the test set, the **RMSE is 2.988 and MAPE is 1.886%** using N_opt=5
+* **StockPricePrediction_v5_last_value.ipynb**:
+	* Predict stock price in next day using last value method ie. use price on day t-1 to predict price on day t
+	* Works well. On the test set, the RMSE is 1.127 and MAPE is 0.565% using last value prediction
 
 
 <img src="./data/vti_predictions_xgboost.png">
