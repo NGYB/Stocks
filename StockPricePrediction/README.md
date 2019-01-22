@@ -38,6 +38,13 @@ Programs for stock price prediction
 	* Here we split 3 years of data into train(60%), dev(20%) and test(20%)
 	* Here we use MinMaxScalar to fit_transform the train set, which we then use to transform the test set
 	* Works well. On the test set, the **RMSE is 2.988 and MAPE is 1.886%** using N_opt=5
+* **StockPricePrediction_v4a_lstm.ipynb**:
+	* Predict stock price in next day using long short term memory(LSTM)
+	* Given prices for the last N days, we do prediction for day N+1
+	* Here we split 3 years of data into train(60%), dev(20%) and test(20%)
+	* Instead of MinMaxScaler, here we use StandardScaler
+	* Whenever we do prediction on dev or test set we scale the previous N values to also have mean 0 and var 1
+	* Works well. On the test set, the **RMSE is 1.164 and MAPE is 0.583%** using N_opt=3
 * **StockPricePrediction_v5_last_value.ipynb**:
 	* Predict stock price in next day using last value method ie. use price on day t-1 to predict price on day t
 	* Works well. On the test set, the RMSE is 1.127 and MAPE is 0.565% using last value prediction
