@@ -1,9 +1,11 @@
 # Stock Price Prediction
-Programs for stock price prediction
+Programs for stock price prediction.
+Here we aim to do predictions with a forecast horizon of 21 days.
 
-* **StockPricePrediction_v1_xgboost.ipynb**:
-	* Predict stock price in next day using XGBoost
-    * Given prices and other features for the last N days, we do prediction for day N+1
-	* Here we split 3 years of data into train(60%), dev(20%) and test(20%)
-	* Doesn't work well, likely because data is not normalized
-
+* **StockPricePrediction_v1_last_value.ipynb**:
+	* Predict stock price using the last value method
+* **StockPricePrediction_v2_prophet.ipynb**:
+	* Predict stock price using Prophet package, using 3 years of data for training and 1 year of data for validation
+* **StockPricePrediction_v2a_prophet.ipynb**:
+	* Predict stock price using Prophet package, using 1 year of data for training and 1 year of data for validation
+  
