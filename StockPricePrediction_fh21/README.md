@@ -1,6 +1,7 @@
 # Stock Price Prediction
-Programs for stock price prediction.
+Programs for stock price prediction. 
 Here we aim to do predictions with a forecast horizon of 21 days.
+The results have been compiled into blog posts [here](https://towardsdatascience.com/forecasting-stock-prices-using-prophet-652b31fb564e) and [here](https://medium.com/@ngyibin/forecasting-stock-prices-using-exponential-smoothing-b37dfe54e8e9).
 
 * **StockPricePrediction_v1_last_value.ipynb**:
 	* Predict stock price using the last value method

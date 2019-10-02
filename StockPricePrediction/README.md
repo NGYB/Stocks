@@ -1,5 +1,5 @@
 # Stock Price Prediction
-Programs for stock price prediction
+Programs for stock price prediction. The results have been compiled into a blog post [here](https://towardsdatascience.com/machine-learning-techniques-applied-to-stock-price-prediction-6c1994da8001). 
 
 * **StockPricePrediction_v1_xgboost.ipynb**:
 	* Predict stock price in next day using XGBoost
