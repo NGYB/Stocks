@@ -28,6 +28,25 @@ The results have been compiled into blog posts [here](https://towardsdatascience
 	* Predict stock price using triple exponential smoothing
 	* Using 3 years of data for training and 1 year of data for validation
 	* Includes finetuning of hyperparameters
+* **StockPricePrediction_v6_xgboost.ipynb**:
+	* Predict stock price using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+* **StockPricePrediction_v6a_xgboost.ipynb**:
+	* Predict stock price using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+* **StockPricePrediction_v6b_xgboost.ipynb**:
+	* Predict stock price using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+	* Includes hyperparameter tuning on validation set
+* **StockPricePrediction_v6c_xgboost.ipynb**:
+	* Predict stock price using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+	* Set the number of previous days to use as features to be 10
+* **StockPricePrediction_v6d_xgboost.ipynb**:
+	* Predict stock price using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+	* Include additional date features
+	
 
 
 
