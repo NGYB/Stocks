@@ -1,7 +1,7 @@
 # Stock Returns Prediction
 Programs for stock **returns** prediction. 
 Here we aim to do predictions with a forecast horizon of 21 days.
-The results have been compiled into blog posts [here](https://towardsdatascience.com/forecasting-stock-prices-using-prophet-652b31fb564e).
+The results have been compiled into blog posts [here](https://ngyibin.medium.com/forecasting-stock-prices-using-xgboost-part-2-2-5fa8ce843690).
 
 * **StockReturnsPrediction_v1_SExpSmoothing.ipynb**:
 	* Predict stock returns using single exponential smoothing
