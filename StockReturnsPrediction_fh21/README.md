@@ -25,4 +25,12 @@ The results have been compiled into blog posts [here](https://medium.com/ai-trad
 	* Includes hyperparameter tuning on validation set
 	* Without date features
 	* Includes technical indicators as features
+ * **StockReturnsPrediction_v6_xgboost.ipynb**:
+	* Predict stock returns using XGBoost
+	* Using 3 years of data for training and 1 year of data for validation
+	* Includes hyperparameter tuning on validation set
+	* Without date features
+	* Includes technical indicators as features
+	* Using direct forecasting techniques
   
+
