@@ -32,5 +32,19 @@ The results have been compiled into blog posts [here](https://medium.com/ai-trad
 	* Without date features
 	* Includes technical indicators as features
 	* Using direct forecasting techniques
+ * **StockReturnsPrediction_v7_xgboost.ipynb**:
+	* Predict stock returns using stacking(linear regression, SVR, XGBoost -> linear regression)
+	* Using 3 years of data for training and 1 year of data for validation
+	* Includes hyperparameter tuning on validation set
+	* Without date features
+	* Includes technical indicators as features
+	* Using direct forecasting techniques
+* **StockReturnsPrediction_v8_xgboost.ipynb**:
+	* Predict stock returns using stacking(LightGBM, ExtraTreesRegressor, SVR -> linear regression)
+	* Using 3 years of data for training and 1 year of data for validation
+	* Includes hyperparameter tuning on validation set
+	* Without date features
+	* Includes technical indicators as features
+	* Using direct forecasting techniques
   
 
