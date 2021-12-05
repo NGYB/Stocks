@@ -19,7 +19,7 @@ The results have been compiled into blog posts with links included below.
 	* Using 3 years of data for training and 1 year of data for validation
 	* Includes hyperparameter tuning on validation set
 	* Without date features
-* **StockReturnsPrediction_v5_xgboost.ipynb** ([blog post[(https://medium.com/ai-trading-labs/forecasting-stock-prices-using-xgboost-part-3-3-c7b13d7a84df)):
+* **StockReturnsPrediction_v5_xgboost.ipynb** ([blog post](https://medium.com/ai-trading-labs/forecasting-stock-prices-using-xgboost-part-3-3-c7b13d7a84df)):
 	* Predict stock returns using XGBoost
 	* Using 3 years of data for training and 1 year of data for validation
 	* Includes hyperparameter tuning on validation set
