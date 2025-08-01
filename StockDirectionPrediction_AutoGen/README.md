@@ -1,5 +1,7 @@
 # Stock recommendation using AutoGen
 
+This code is used in a blog post [here](https://medium.com/@ngyibin/multi-agent-workflows-using-autogen-for-stock-recommendation-d9a91c3e7eef).
+
 To run the app, follow the instructions below. Make sure you are in the root directory of this repo.
 ```
 python -m venv env
