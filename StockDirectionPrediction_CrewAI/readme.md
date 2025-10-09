@@ -1,6 +1,6 @@
 # Stock recommendation using CrewAI
 
-This code is used in a blog post [here](https://medium.com/@ngyibin/multi-agent-workflows-using-autogen-for-stock-recommendation-d9a91c3e7eef).
+This code is used in a blog post [here](https://ngyibin.medium.com/stock-recommendation-using-crewai-multi-agent-workflows-e0057eee14c2).
 
 To change the input data, comment out the appropriate lines in the code:
 ```
