@@ -84,7 +84,7 @@ peewee==3.18.3
     # via yfinance
 platformdirs==4.5.0
     # via yfinance
-protobuf==6.33.1
+protobuf==6.33.5
     # via yfinance
 pycparser==2.23
     # via cffi
